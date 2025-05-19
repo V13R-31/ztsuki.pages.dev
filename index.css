@@ -92,12 +92,24 @@ header ul li a:hover {
     float: right;
     transition: transform 0.3s;
 }
-#pview1:hover, #pview2:hover {
+.container #pview3 {
+    border: 10px solid #1f1e33;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    width: 40%;
+    height: 40%;
+    float: right;
+    transition: transform 0.3s;
+}
+#pview1:hover, #pview2:hover, #pview3:hover {
     transform: scale(1.05);
 }
-.container a {
+.container a, .container u {
     color: white;
     font-size: xx-large;
+}
+.container #box {
+    display: inline-table;
 }
 #box {
     max-width: 750px;
@@ -108,8 +120,28 @@ header ul li a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
     border-radius: 20px;
 }
+#box a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 0 15px;
+    background: linear-gradient(90deg, rgb(253, 63, 63), rgb(255, 71, 71), white);
+    background-clip: text;
+    color: transparent;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+#box a:hover {
+    color: #1f1e33;
+    transform: scale(1.2);
+}
+#icon {
+    width: 32px;
+    height: 32px;
+}
 .title {
     margin: 30px;
+}
+.title #box a {
+    color: white;
 }
 .content {
     width: 300px;
@@ -118,7 +150,7 @@ header ul li a:hover {
     padding: 10px;
     overflow-y: scroll;
 }
-#arcaea, #genshin, #osu, #cs, #minecraft, #l4d2, #hl, 
+#arcaea, #genshin, #osu, #cs, #mc, #l4d2, #hl, 
 #rezero, #frieren, #bocchi, #hyouka, #oshi {
     cursor: pointer;
 }

@@ -4,7 +4,7 @@ const arcaea = document.getElementById('arcaea');
 const genshin = document.getElementById('genshin');
 const osu = document.getElementById('osu');
 const cs = document.getElementById('cs');
-const mc = document.getElementById('minecraft');
+const mc = document.getElementById('mc');
 const l4d2 = document.getElementById('l4d2');
 const hl = document.getElementById('hl');
 
